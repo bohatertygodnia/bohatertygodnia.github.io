@@ -18,8 +18,8 @@ body.kid{
 		.circle6 {background-color:  $color_base;}
 		.circle7 {background-color:  mix($color_base, $color_back_kid);}
 		.circle8 {background-color: $color_done;}
-		.circle9 {background-color: $color_base;}
-		.circle10 {background-color: $color_undone;}
+		.circle9 {background-color: $color_undone;}
+		.circle10 {background-color: $color_base;}
 	}
 }
 
@@ -40,16 +40,16 @@ body.parent{
 
 @media (orientation: portrait){  
     .circle1{
-        left: 25vw;
-        top: calc(50vh - 25vw); 
-        width: 50vw;
-        height: 50vw;
+        left: 20vw;
+        top: calc(50vh - 30vw); 
+        width: 60vw;
+        height: 60vw;
 	}
 	.circle2{
-		left: 20vw;
-		top: calc(50vh - 30vw); 
-		width: 60vw;
-		height: 60vw;	
+		left: 15vw;
+		top: calc(50vh - 35vw); 
+		width: 70vw;
+		height: 70vw;	
 	}
 
 	.circle3{
@@ -74,10 +74,10 @@ body.parent{
 	}
 
 	.circle6{
-		left: -5vw;
-		top: calc(50vh - 55vw); 
-		width: 110vw;
-		height: 110vw;
+		left: -2.5vw;
+		top: calc(50vh - 52.5vw); 
+		width: 105vw;
+		height: 105vw;
 	}
 
 	.circle7{
@@ -96,31 +96,31 @@ body.parent{
 	.circle9{
 		right: 2vw;
 		top: calc(50vh + 25vw - 15vw); 
-		width: 35vw;
-		height: 35vw;
+		width: 30vw;
+		height: 30vw;
 	}
 
 	.circle10{
 		right: 10vw;
-		top: calc(50vh - 50vw + 3vw); 
-		width: 30vw;
-		height: 30vw;
+		top: calc(50vh - 50vw - 3vw); 
+		width: 35vw;
+		height: 35vw;
 	}
 }
 
 @media (orientation: landscape){  
     .circle1{
-        left: calc(50vw - 25vh);
-		top: 25vh;
-        width: 50vh;
-        height: 50vh;
+        left: calc(50vw - 30vh);
+		top: 20vh;
+        width: 60vh;
+        height: 60vh;
 	};
 
 	.circle2{
-		left: calc(50vw - 30vh); 
-		top: 20vh;
-		width: 60vh;
-		height: 60vh;	
+		left: calc(50vw - 35vh); 
+		top: 15vh;
+		width: 70vh;
+		height: 70vh;	
 	}
 
 	.circle3{
@@ -145,10 +145,10 @@ body.parent{
 	}
 
 	.circle6{
-		left: calc(50vw - 55vh); 
-		top: -5vh;
-		width: 110vh;
-		height: 110vh;
+		left: calc(50vw - 52.5vh); 
+		top: -2.5vh;
+		width: 105vh;
+		height: 105vh;
 	}
 
 	.circle7{
@@ -166,16 +166,16 @@ body.parent{
 	}
 
 	.circle9{
-		left: calc(50vw + 25vh - 10vh); 
-		bottom: 3vh;
-		width: 35vh;
-		height: 35vh;
+		left: calc(50vw + 25vh - 12vh); 
+		bottom: 5vh;
+		width: 30vh;
+		height: 30vh;
 	}
 
 	.circle10{
-		right: calc(50vw - 50vh - 3vh ); 
+		right: calc(50vw - 50vh - 5vh ); 
 		top: 18vh;
-		width: 30vh;
-		height: 30vh;
+		width: 35vh;
+		height: 35vh;
 	}
 }

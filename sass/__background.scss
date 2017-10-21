@@ -88,23 +88,23 @@ body.parent{
 	}
 	.circle8{
 		left: 2vw;
-		top: calc(50vh + 25vw - 13vw); 
+		top: calc(50vh + 25vw - 10vw); 
 		width: 40vw;
 		height: 40vw;
 	}
 
 	.circle9{
 		right: 2vw;
-		top: calc(50vh + 25vw - 20vw); 
-		width: 32vw;
-		height: 32vw;
+		top: calc(50vh + 25vw - 15vw); 
+		width: 35vw;
+		height: 35vw;
 	}
 
 	.circle10{
 		right: 10vw;
 		top: calc(50vh - 50vw + 3vw); 
-		width: 35vw;
-		height: 35vw;
+		width: 30vw;
+		height: 30vw;
 	}
 }
 
@@ -159,23 +159,23 @@ body.parent{
 	}
 
 	.circle8{
-		right: calc(50vw + 25vh - 8vh); 
+		right: calc(50vw + 25vh - 3vh); 
 		bottom: 10vh; 
 		width: 40vh;
 		height: 40vh;
 	}
 
 	.circle9{
-		left: calc(50vw + 25vh - 15vh); 
-		bottom: 5vh;
-		width: 32vh;
-		height: 32vh;
+		left: calc(50vw + 25vh - 10vh); 
+		bottom: 3vh;
+		width: 35vh;
+		height: 35vh;
 	}
 
 	.circle10{
 		right: calc(50vw - 50vh - 3vh ); 
 		top: 18vh;
-		width: 35vh;
-		height: 35vh;
+		width: 30vh;
+		height: 30vh;
 	}
 }

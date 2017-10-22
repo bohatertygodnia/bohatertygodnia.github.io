@@ -162,7 +162,6 @@ input[type="radio"] { display: none;}
 			input[type='radio'] + label.double:first-of-type{
 				border-bottom-left-radius: 20px;
 				border-top-left-radius: 20px;
-				border-right: none;
 			}
 			input[type='radio'] + label.double:last-of-type{
 				border-bottom-right-radius: 20px;

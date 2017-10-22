@@ -33,7 +33,7 @@ ul.menu {
 		&:hover{background-color: darken($color_undone,10%);}}}
 	.menu-odznaki {background: url(../assets/odznaki.png) top 20% center no-repeat; background-size: 90%;
 		&:hover{background-color: darken($color_done,10%);}}
-	.menu-bohater{ background-color: $color_wait !important; background:  url(../assets/bohater.png) top 30% center no-repeat; background-size: 40%;
+	.menu-bohater{ background:  url(../assets/bohater.png) top 30% center no-repeat; background-size: 40%;
 		&:hover{background-color: darken($color_wait,10%);}
 		p{bottom: 10% !important}
 	}

@@ -373,6 +373,10 @@ $(document).on('deleteWaitMission', function (event, missionId, doneDate){
 })
 
 
+
+
+// GIFTS
+
 //finds index of USER mission in userMissions by ID
 function findUserGift(giftId){
 	var index = userGifts.findIndex(function (gift) {
@@ -389,10 +393,51 @@ function findExpertGift(giftId){
 	return index
 }
 
+// add new user gift
+$(document).on('addUserGift', function (event, name, icon, points) {
+	
+		var newId =String(Number(userGifts[userGifts.length-1].id)+1);
+			var newUserGift={
+					id: newId,
+					name: name,
+					icon: icon,
+					points: points
+				}
+		
+		userGifts.push(newUserGift)
+		$(document).trigger('showGifts')
+	})
+
+
+	$(document).on('deleteUserGift',function(event,giftId){
+		
+			var index = findUserGift(giftId);
+			userGifts.splice(index,1);
+		
+			$(document).trigger('showGifts')
+		})
+			
+		
+		
+		$(document).on('updateUserGift', function (event, giftId, name, icon,points) {
+		
+			var index = findUserGift(giftId);
+		
+			userGifts[index].name=name;
+			userGifts[index].icon=icon;
+			userGifts[index].points=points;
+		
+			$(document).trigger('showGifts')
+		})
 
 
 //function checking if we are in the kid mode
 function kidMode() { return $('body').hasClass('kid') };
+
+
+
+
+
 
 
 

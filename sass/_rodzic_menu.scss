@@ -2,7 +2,7 @@
   position:relative;
   //  height: 700px;
     border: 4px solid #008aff;
-    color: white;
+    color: $color_text_parent;
     width: 80%;
     margin: 5.0rem auto;
     margin-bottom: 7.0rem;
@@ -14,6 +14,17 @@
 
 }
 
+.total-progress {
+  margin: 20px auto;
+  width: 100%;
+  background-color: $color_back_parent;
+  padding: 20px;
+  .progress{
+    margin: 20px auto;
+    .progress-wait {width: 60%;}
+    .progress-done { width: 40%;}
+  }
+}
 .kid-label {
   top: -35px;
   color: white !important;

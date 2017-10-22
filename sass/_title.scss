@@ -1,7 +1,7 @@
 // large header baner
-.index-banner{
+.title-banner{
 	position: relative;
-	top: 18vw;
+	top: 0px;
 	left: 0px;
 	width: 100%;
 	text-align: center;
@@ -9,43 +9,52 @@
 
 	.logo {
 		position: absolute;
-		top: -18vw;
+		top: 0;
 		left: 40vw;
 		width: 20vw;
 		height: 20vw;
 	}
 
 	h1{
-		padding-top: 20px;
+		padding-top: 20vw;
 		font: 1.2*$font_title_size $font_title_family;
 		color: $color_text_kid;
 		text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+
+
 	}
+
+	.font-skew {
+		-moz-transform: matrix( 0.99026806874157,-0.13917310096007,0.13917310096007,0.99026806874157,0,0);
+		-webkit-transform: matrix( 0.99026806874157,-0.13917310096007,0.13917310096007,0.99026806874157,0,0);
+		-ms-transform: matrix( 0.99026806874157,-0.13917310096007,0.13917310096007,0.99026806874157,0,0);
+		margin-bottom: 0rem;
+		padding-top: 0px;
+	  }
 }	
-.font-skew {
-	-moz-transform: matrix( 0.99026806874157,-0.13917310096007,0.13917310096007,0.99026806874157,0,0);
-	-webkit-transform: matrix( 0.99026806874157,-0.13917310096007,0.13917310096007,0.99026806874157,0,0);
-	-ms-transform: matrix( 0.99026806874157,-0.13917310096007,0.13917310096007,0.99026806874157,0,0);
-	margin-bottom: 25.0rem;
-	margin-top: -3rem;
-  }
 
 
-.index-banner-smaller {
-	top: 0px;
-	text-align: center;
-	.logo {
-		top: 0vw;
-		left: $odznaki_right;
+  @media (orientation: landscape){  
+
+	.title-banner {
+		top: 0px;
+		text-align: center;
+		.logo {
+			top: 0vw;
+			left: $odznaki_right;
+		}
+		.font-skew { 
+			margin-bottom: 0;
+		}
 	}
-	.font-skew { 
-		margin-bottom: 5rem;
-	}
+
 }
 
   
-.index-container {
+
+.title-container {
 	position: relative;
+	width: 100%;
 	text-align: center;
 
 	form.enter {

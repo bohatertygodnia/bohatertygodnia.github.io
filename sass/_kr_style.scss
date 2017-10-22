@@ -45,7 +45,7 @@ input.kr-date {
 }
 
 .kid-label {
-  top: -60px;
+  top: -35px;
   color: white !important;
   border-radius: 2rem;
   border: 2px solid $color_base;
@@ -56,6 +56,7 @@ input.kr-date {
   font: 5.0rem $font_title_family;
   width: 60%;
   margin: auto;
+  margin-bottom: -35px;
   &::after{
         content: '';
         height: 100%;
@@ -70,7 +71,6 @@ input.kr-date {
 .kid-icon {
   margin: 3rem 5%;
   width: 34%;
-  background-color: yellow;
   display: inline-block;
   
   img {

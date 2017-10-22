@@ -205,7 +205,6 @@ input[type=checkbox] {
 .container {
 	position: relative;
   width: 100%;
-  background-color: red;
 	top: $header_height;
 	left: 0px;
 	text-align: center;
@@ -224,7 +223,6 @@ input[type=checkbox] {
 		font: $font_big_size $font_reg_family;
 		text-align: center;
 		line-height: 100px;
-		vertical-align:middle;
 		z-index: 499;
 		
 		p{
@@ -243,7 +241,6 @@ input[type=checkbox] {
 			background-color: $color_base;
 			color: $color_text_kid;
 			text-align: center;
-			vertical-align:middle;
 			line-height: $exit_button_size;
 			cursor: pointer;
 		}

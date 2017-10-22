@@ -129,11 +129,11 @@ input.kr-date {
 
 #avatars{
   height: 650px;
-  overflow-y: auto;
   position: relative;
   display: block;
   width: 80%;
   margin: 3.0rem auto;
+  
 
 
 }
@@ -148,6 +148,7 @@ input.kr-date {
   margin-right: 15px;
   width: 200px;
   height: 280px;
+  padding: 20px;
 
 }
 
@@ -163,7 +164,7 @@ input.kr-date {
 }
 
 .kr-bohater-text {
-      font: 10rem "IntroRustH1-Base",cursive;
+      font: 5rem "IntroRustH1-Base",cursive;
       margin-top: 10px;
 }
 

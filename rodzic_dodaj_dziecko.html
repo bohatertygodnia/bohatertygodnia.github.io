@@ -41,13 +41,11 @@
 
 		<input type='password' placeholder='Powtórz hasło dziecka'>
 
-		<input type='checkbox' name="chlopiec">
-			<label class="kr-gender-label">Chłopiec</label>
-		<input type='checkbox' name="dziewczynka">
-			<label class="kr-gender-label" for="dziewczynka">Dziewczynka</label>
+		<input type="radio" name="kids-gender" id="gender-left"><label for="gender-left" class="double">Chłopiec</label>
+		<input type="radio" name="kids-gender" id="gender-right"><label for="gender-right" class="double">Dziewczynka</label>
 
 		<div id="avatars">
-
+				<p class="kr-bohater-text">Wybierz bohatera</p>
 			<form action='rodzic_menu.html'>
 				<label class="avatars">
 				    <input class="kr-bohater" type="radio" name="avatar"/>
@@ -62,7 +60,7 @@
 				    <input class="kr-bohater" type="radio" name="avatar"/>
 				    <img src="./assets/bohater3.png" alt=""/>
 				</label>
-				<p class="kr-bohater-text">Wybierz bohatera</p>
+
 				<button type='submit' style="width: 100%;">DODAJ DZIECKO</button>
 		  	</form>
 		</div>

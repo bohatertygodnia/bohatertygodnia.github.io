@@ -31,24 +31,22 @@
 
 	<form  action='rodzic_menu.html'>
 	
-		<input type='text' placeholder='Imie'>
+		<input type='text' placeholder='Imie' value="Kacper">
 
-		<input class="kr-date" type='text' placeholder='Rok urodzenia'>
+		<input class="kr-date" type='text' placeholder='Rok urodzenia' value="2013">
 
-		<input type='text' placeholder='Login dziecka'>
+		<input type='text' placeholder='Login dziecka' value="kacperek">
 
-		<input type='password' placeholder='Hasło dziecka'>
+		<input type='password' placeholder='Hasło dziecka' value="kacperek">
 
-		<input type='password' placeholder='Powtórz hasło dziecka'>
-
-		<input type="radio" name="kids-gender" id="gender-left"><label for="gender-left" class="double">Chłopiec</label>
+		<input type="radio" name="kids-gender" id="gender-left" checked><label for="gender-left" class="double">Chłopiec</label>
 		<input type="radio" name="kids-gender" id="gender-right"><label for="gender-right" class="double">Dziewczynka</label>
 
 		<div id="avatars">
 			<p class="kr-bohater-text">Wybierz bohatera</p>
 			<form action='rodzic_menu.html'>
 				<label class="avatars">
-				    <input class="kr-bohater" type="radio" name="avatar"/>
+				    <input class="kr-bohater" type="radio" name="avatar" checked/>
 					<img src="./assets/bohater.png" alt=""/>  
 				</label> 
 
@@ -61,7 +59,7 @@
 				    <img src="./assets/bohater3.png" alt=""/>
 				</label>
 
-				<button type='submit' style="width: 100%;">DODAJ DZIECKO</button>
+				<button type='submit' style="width: 100%;">ZAPISZ ZMIANY</button>
 		  	</form>
 		</div>
 

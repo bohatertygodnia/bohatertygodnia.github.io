@@ -163,16 +163,34 @@ a.scrolling {
 	}
 }
 
+.page-container{
+	p{
+		padding: 3.0rem;
+	}
+}
 .half-page-container{
 	padding:4.0rem;
 	p{
 		padding: 2.0rem;
 	}
+	.move-down{padding-top:12.0rem;}
+}
+
+.img-float-right{
+	width: 15.0rem;
+	float: right;
+	margin: 0 3.0rem;
+}
+
+.img-float-left{
+	width: 15.0rem;
+	float: left;
+	margin: 0 3.0rem;
 }
 
 ul.green-circle{
 	padding: 2.0rem;
-	li{padding: 2.0rem; padding-left: 6.0rem; position: relative;}
+	li{padding: 3.0rem; padding-left: 6.0rem; position: relative;}
 	li:before{
 		content: ''; 
 		position: absolute;
@@ -180,6 +198,9 @@ ul.green-circle{
 		width: 40px;
 		height: 40px;
 		background: url(../assets/mission.svg) center center no-repeat; background-size:100%;
+	}
+	span {
+		background-color: $color_done;
 	}
 }
 
@@ -201,7 +222,41 @@ ul.green-circle{
 	  }
 }
 
-p.move-down{padding-top: 12.0rem;}
+.logo-banner-point{
+	position: relative;
+	width:100%;
+	padding: 3.0rem;
+	color:white;
+	background-color:$color_base;
+	text-align: left;
+	&:after{
+		content:'1';
+		color:white;
+		line-height: 10rem;
+		background-color: $color_undone;
+		border: 2px white solid;
+		width: 10rem;
+		height: 10rem;
+		position: absolute;
+		top:-4.0rem;
+		right: 6rem;
+		display:block;
+		border-radius: 100%;
+		text-align: center;
+	}
+}
+.logo-banner-point-right{
+	margin-top: 3.0rem;
+	text-align: right;
+	&:after{
+		content:'2';
+		left:6rem;
+	}
+}
+
+
+p.move-all{padding: 12.0rem;}
+
 ul.blue-square{
 	padding: 2.0rem;
 	li{padding: 2.0rem; }
@@ -222,6 +277,6 @@ ul.blue-square{
 
 #section03 { background-color: $color_back_kid; color: white;}
 
-#section04 { background-color: white; }
+#section04 { background-color: white; a{color:black; span{border-color:black;}}}
 
-#section05 { background-color: $color_back_kid;}
+#section05 { background-color: $color_back_kid;color: white; text-align: center;}

@@ -169,6 +169,18 @@ var userGifts = [
 		name: 'Wieczór gier',
 		icon: 'assets/dice.svg',
 		points: 50,		
+	},
+	{
+		id:'3',	
+		name: 'Wyjście do kina', 
+		icon: 'assets/tickets.svg',
+		points: 80,
+	},
+	{
+		id:'4',	
+		name: 'Wycieczka na weekend', 
+		icon: 'assets/walk.svg',
+		points: 150,
 	}
 ]
 

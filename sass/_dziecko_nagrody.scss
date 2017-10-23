@@ -1,0 +1,19 @@
+.dziecko-nagrody {
+
+li.circle-big{
+    display:block;
+    position: relative;
+    p{
+        position: absolute;
+        left: $mission_big_size;
+        top: 0;
+        display: block;
+        width: 60.0rem;
+        text-align: center;
+        font: $font-big-size $font-reg-family;
+    }
+}
+
+
+color:white;
+}

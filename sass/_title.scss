@@ -214,7 +214,7 @@ ul.blue-square{
 
 #section01 {
 	.circles {
-		position: absolute;
+		position: fixed;
 	}
 }
 
@@ -222,6 +222,6 @@ ul.blue-square{
 
 #section03 { background-color: $color_back_kid; color: white;}
 
-#section04 { background-color: white;}
+#section04 { background-color: white; }
 
 #section05 { background-color: $color_back_kid;}

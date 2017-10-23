@@ -190,7 +190,7 @@ a.scrolling {
 
 ul.green-circle{
 	padding: 2.0rem;
-	li{padding: 3.0rem; padding-left: 6.0rem; position: relative;}
+	li{text-align: left;padding: 3.0rem; padding-left: 6.0rem; position: relative;}
 	li:before{
 		content: ''; 
 		position: absolute;
@@ -243,6 +243,9 @@ ul.green-circle{
 		display:block;
 		border-radius: 100%;
 		text-align: center;
+	}
+	span{
+		background-color: $color_back_kid;
 	}
 }
 .logo-banner-point-right{

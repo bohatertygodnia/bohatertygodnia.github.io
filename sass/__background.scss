@@ -16,7 +16,7 @@ body.kid{
 		.circle4 {background-color:  lighten(mix($color_base,$color_done),15%);}
 		.circle5 {background-color:  lighten($color_base,15%);}
 		.circle6 {background-color:  $color_base;}
-		.circle7 {background-color:  mix($color_base, $color_back_kid);}
+		.circle7 {background-color:  mix($color_base, $color_back_kid,40%);}
 		.circle8 {background-color: $color_done;}
 		.circle9 {background-color: $color_undone;}
 		.circle10 {background-color: $color_base;}

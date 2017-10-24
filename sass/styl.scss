@@ -1,11 +1,15 @@
 @import 'reset';
 @import '_zmienne';
 
-body.kid{background: $color_back_kid url(../assets/background.svg) center center no-repeat; background-size: 100%;}
-//body.kid{background: $color_back_kid url(../assets/back_circles.svg) top center no-repeat; background-size: 100%;}
-body.parent{background-color: $color_back_parent;}
+// body.kid{background: $color_back_kid;}
+//  .kid.title-page{background: url(../assets/background.svg) center center no-repeat; background-size: 100%;}
+// //body.kid{background: $color_back_kid url(../assets/back_circles.svg) top center no-repeat; background-size: 100%;}
+// body.parent{background-color: $color_back_parent;}
+
+html{background: $color_back_kid url(../assets/background.svg) top 70% center no-repeat; background-size: 100%;}
 
 html {
+	height: 100%;
 	font-size: 62.5%;
 	font-family: $font_reg_family;
 }

@@ -1,19 +1,32 @@
 @import 'reset';
 @import '_zmienne';
 
-// body.kid{background: $color_back_kid;}
-//  .kid.title-page{background: url(../assets/background.svg) center center no-repeat; background-size: 100%;}
-// //body.kid{background: $color_back_kid url(../assets/back_circles.svg) top center no-repeat; background-size: 100%;}
-// body.parent{background-color: $color_back_parent;}
-
-html.background-kid-title{background: $color_back_kid url(../assets/background.svg) top 200px center no-repeat; background-size: 100%;}
-html.background-parent-title{background: darken($color_back_parent,30%) url(../assets/background_parent.svg) top 200px center no-repeat; background-size: 100%;}
-html.background-kid{background: $color_back_kid url(../assets/background_kid.svg) top 200px center no-repeat; background-size: 100%;}
+html.background-parent{
+	background: $color_back_parent url(../assets/background_parent.svg) bottom center no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+html.background-parent-title{
+	background: darken($color_back_parent,30%) url(../assets/background_parent_title.svg) top 275px center no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+html.background-kid{
+	background: $color_back_kid url(../assets/background_kid.svg) bottom center no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+html.background-kid-title{
+	background: $color_back_kid url(../assets/background_kid_title.svg) top 275px center no-repeat; 
+	background-attachment: fixed;
+	background-size: 100%;
+}
 
 html {
 	height: 100%;
 	font-size: 62.5%;
 	font-family: $font_reg_family;
+
 }
 
 a {

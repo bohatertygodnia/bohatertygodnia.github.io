@@ -2,38 +2,41 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #01215e;
+        fill: #b1b1b1;
       }
 
       .cls-2 {
-        fill: #012c70;
+        fill: #cbcbcb;
       }
 
       .cls-3 {
-        fill: #013882;
+        fill: #b4d9aa;
       }
 
       .cls-4 {
-        fill: #014494;
-    }
+        fill: #95c987;
+      }
 
       .cls-5 {
-        fill: #0150a6;
+        fill: #72b7f2;
       }
 
       .cls-6 {
-        fill: #014494;
-    }
+        fill: #89c0ef;
+      }
+
+      .cls-7 {
+        fill: #a0c9ec;
+      }
     </style>
   </defs>
   <g>
     <circle cx="400" cy="550" r="550" class="cls-1"/>
     <circle cx="425" cy="518" r="475" class="cls-2"/>
     <circle cx="425" cy="493" r="400" class="cls-3"/>
-    <!-- <circle cx="400" cy="453" r="325" class="cls-4"/> -->
-    <!-- <circle cx="445" cy="500" r="325" class="cls-4"/> -->
-    <!-- <circle cx="425" cy="471" r="290" class="cls-5"/> -->
-    <circle cx="425" cy="465" r="255" class="cls-6"/>
-
+    <circle cx="400" cy="453" r="325" class="cls-4"/>
+    <circle cx="445" cy="500" r="325" class="cls-5"/>
+    <circle cx="425" cy="471" r="290" class="cls-6"/>
+    <circle cx="425" cy="465" r="255" class="cls-7"/>
   </g>
 </svg>

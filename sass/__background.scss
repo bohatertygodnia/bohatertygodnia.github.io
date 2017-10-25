@@ -8,7 +8,7 @@ body.kid{
 	.circles{background-color: transparentize(lighten($color_back_kid,15%),0.5)}
 
 	&.title-page {
-		// .circle1 {background-color: $color_wait;}
+		.circle1 {background-color: $color_wait;}
 		// .circle2 {background-color: mix($color_wait, $color_done)}
 		// .circle3 {background-color:  $color_done;}
 		// .circle4 {background-color:  lighten(mix($color_base,$color_done),15%);}

@@ -15,15 +15,15 @@
 
       .cls-4 {
         fill: #014494;
-      }
+    }
 
       .cls-5 {
         fill: #0150a6;
       }
 
       .cls-6 {
-        fill: #005bb7;
-      }
+            fill: #014494;
+    }
     </style>
   </defs>
   <g>

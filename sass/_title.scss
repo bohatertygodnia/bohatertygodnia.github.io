@@ -176,6 +176,10 @@ a.scrolling {
 	.move-down{padding-top:12.0rem;}
 }
 
+
+
+
+
 .img-float-right{
 	width: 15.0rem;
 	float: right;
@@ -258,7 +262,9 @@ ul.green-circle{
 }
 
 
-p.move-all{padding: 12.0rem;}
+
+
+
 
 ul.blue-square{
 	padding: 2.0rem;
@@ -269,6 +275,8 @@ ul.blue-square{
 		color: $color_base; 
 	}
 }
+
+p.move-all{padding: 12.0rem;}
 
 #section01 {
 	.circles {
@@ -283,3 +291,37 @@ ul.blue-square{
 #section04 { background-color: white; a{color:black; span{border-color:black;}}}
 
 #section05 { background-color: $color_back_kid;color: white; text-align: center;}
+
+
+@media (orientation: landscape){  
+		p.move-all{padding: 4.0rem;}
+
+		section.page-container {
+			font: $font-mid-size $font-reg-family;
+		  }
+
+		#section03{height:55vh; margin-top: -5vh;}  ;
+
+		  .logo-banner-point:after{
+				line-height: 7rem;
+				width: 7rem;
+				height: 7rem;
+		  }
+		  section.half-page-container {
+			font: $font-mid-size $font-reg-family;
+		  }
+		  .half-page-container{
+			padding:2.0rem;
+			p {padding: 1.0rem}
+			.move-down{padding-top:4.0rem;}
+		}
+		ul.green-circle{
+			padding: 1.0rem;
+			li{padding: 2.0rem; padding-left: 6.0rem; }
+		}
+
+	
+		
+
+
+}

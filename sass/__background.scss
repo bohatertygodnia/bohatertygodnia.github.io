@@ -5,7 +5,7 @@
 
 
 body.kid{
-	.circles{background-color: transparentize(lighten($color_back_kid,15%),0.5)}
+	// .circles{background-color: transparentize(lighten($color_back_kid,15%),0.5)}
 
 	&.title-page {
 		.circle1 {background-color: $color_wait;}
@@ -21,20 +21,20 @@ body.kid{
 	}
 }
 
-body.parent{
-	.circles{background-color: transparentize(darken($color_back_parent,15%),0.5)};
+// body.parent{
+// 	.circles{background-color: transparentize(darken($color_back_parent,15%),0.5)};
 
-	&.title-page {
-		// background-color: darken($color_back_parent,30%);
-		.circle1 {background-color: mix($color_back_parent, $color_base,70%)};
-		.circle2 {background-color: mix($color_back_parent, $color_base,60%)};
-		.circle3 {background-color: mix($color_back_parent, $color_base,50%)};
-		.circle4 {background-color: darken(mix($color_back_parent, $color_done,70%),10%);}
-		.circle5 {background-color: mix($color_back_parent, $color_done,70%)};
-		.circle6 {background-color: darken($color_back_parent,10%);}
-		.circle7 {background-color:  darken($color_back_parent,20%);}
-	}
-}
+// 	&.title-page {
+// 		background-color: darken($color_back_parent,30%);
+// 		.circle1 {background-color: mix($color_back_parent, $color_base,70%)};
+// 		.circle2 {background-color: mix($color_back_parent, $color_base,60%)};
+// 		.circle3 {background-color: mix($color_back_parent, $color_base,50%)};
+// 		.circle4 {background-color: darken(mix($color_back_parent, $color_done,70%),10%);}
+// 		.circle5 {background-color: mix($color_back_parent, $color_done,70%)};
+// 		.circle6 {background-color: darken($color_back_parent,10%);}
+// 		.circle7 {background-color:  darken($color_back_parent,20%);}
+// 	}
+// }
 
 @media (orientation: portrait){  
 	.circle1{
@@ -71,29 +71,34 @@ body.parent{
 }
 
 @media (orientation: landscape){  
-    // .circle1{
-    //     left: calc(50vw - 30vh);
-	// 	top: 20vh;
-    //     width: 60vh;
-    //     height: 60vh;
-	// };
+    .circle1{
+		top: 50%;
+		margin-top:-30vh;
+		left: 50%;
+		margin-left: -30vh;
+        width: 60vh;
+		height: 60vh;
+	};
 
 	.circle8{
-		right: calc(50vw + 25vh - 3vh); 
+		right: 50%;
+		margin-right: 22vh; 
 		bottom: 10vh; 
 		width: 40vh;
 		height: 40vh;
 	}
 
 	.circle9{
-		left: calc(50vw + 25vh - 12vh); 
+		left: 50%;
+		margin-left: 13vh; 
 		bottom: 5vh;
 		width: 30vh;
 		height: 30vh;
 	}
 
 	.circle10{
-		right: calc(50vw - 50vh - 5vh ); 
+		right: 50%;
+		margin-right: -55vh;
 		top: 18vh;
 		width: 35vh;
 		height: 35vh;
